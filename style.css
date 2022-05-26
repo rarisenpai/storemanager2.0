@@ -112,7 +112,7 @@ body{
 
 .input-field i{
     position: absolute;
-    top: 55%;
+    top: 50%;
     transform: translateY(-50%);
     color: #999;
     font-size: 23px;
