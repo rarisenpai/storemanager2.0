@@ -8,7 +8,7 @@
 }
 .home-section{
   position: relative;
-  background-color: #5b6174;
+  background-color: #121212;
   min-height: 100vh;
   width: 100%;
   transition: all 0.5s ease;
@@ -28,7 +28,7 @@
   transition: all 0.5s ease;
 }
 .welcome{
-    color: #fff;
+    color: #121212;
 }
 .home-section nav .welcome{
   display: flex;
