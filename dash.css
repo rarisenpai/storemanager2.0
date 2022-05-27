@@ -281,9 +281,12 @@ nav .profile-details i{
     margin: 0;
     outline: none;
     padding: 0px 10px;
-    color: #fff;
-    background-color: #121212;
+    color: #fff; 
+    background-color: #5b6174;
     cursor: pointer;
+}
+.top-sale li input:hover {
+       background-color: #121212;
 }
 .button{
     margin-top:30px;
