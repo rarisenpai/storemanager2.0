@@ -53,6 +53,10 @@ nav .search-box input{
   font-size: 18px;
   padding: 0 15px;
 }
+.sale{
+  text-decoration: none;
+  color: #121212;
+}
 nav .search-box .bx-search{
   position: absolute;
   height: 40px;
@@ -72,7 +76,7 @@ nav .search-box .bx-search{
   text-decoration: none;
   color: #fff;
   padding: 0 10px;
-  background-color: #5b6174;
+  background-color: green;
   outline: none;
   font-size: 18px;
   border-radius: 5px;
@@ -97,17 +101,16 @@ nav .log_out a{
 .home-section nav .profile-details{
   display: flex;
   align-items: center;
-  background: #F5F6FA;
-  border: 2px solid #EFEEF1;
-  border-radius: 6px;
+  background: #f3f3f3;
+  border-radius: 8px;
   height: 50px;
-  min-width: 190px;
-  padding: 0 15px 0 2px;
+  min-width: 120px;
+  padding: 0 5px 0 2px;
 }
 nav .profile-details .admin_name{
-  font-size: 15px;
-  font-weight: 500;
-  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  color: #121212;
   margin: 0 10px;
   white-space: nowrap;
 }
@@ -243,7 +246,7 @@ nav .profile-details i{
     outline: none;
     padding: 0px 10px;
     color: #fff;
-    background-color: #121212;
+    background-color: green;
     cursor: pointer;
 }
 .sales-boxes .box .button{
@@ -292,7 +295,7 @@ nav .profile-details i{
     outline: none;
     padding: 0px 10px;
     color: #fff; 
-    background-color: #121212;
+    background-color: red;
     cursor: pointer;
 }
 .button{
@@ -304,6 +307,7 @@ nav .profile-details i{
   font-weight: 400;
   color: #333;
 }
+
 /* Responsive Media Query */
 @media (max-width: 1240px) {
   .home-section{

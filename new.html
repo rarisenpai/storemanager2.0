@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="heading">
+        <h1>Add new product!</h1>
+    </div>
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">New product</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="item's name" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Category" required>
+                        <i class="uil uil-shop"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text"  placeholder="Price" required>
+                        <i class="uil uil-shop"></i>
+                    </div>
+                    <div class="input-field button">
+                        <input type="button" id="new-product" value="Add New">
+                    </div>
+                </form>
+            </div>
+
+
+    <script src="script.js">
+     document.getElementById("new-product").addEventListener("click", function() {
+    alert("Your new product has been created!");
+  });
+    </script>
+
+</body>
+</html>
